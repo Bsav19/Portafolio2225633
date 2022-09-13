@@ -1,0 +1,452 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    background: #2E0249;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+}
+
+header{
+    background: transparent;
+}
+
+
+.bg-portafolio{
+background: #A91079;
+}
+.bg-portafolio ul li a{
+    color: #ffff;
+}
+.bg-portafolio ul li a:hover{
+    color: rgb(46, 0, 83) ;
+}
+#hero{
+    padding-top: 120px;
+    padding-bottom:  80px;
+}
+#hero h1{
+    color: #ffff;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#hero h2{
+    color:#ffff;
+    font-size: 22px;
+}
+#hero p{
+    color:#ffff;
+    font-size: 22px;
+}
+
+
+#fondo{
+    width: 100%;
+    background: #2E0249;
+    position: center;
+ 
+}
+#border0{
+    width: 100%;
+    position: relative;
+    background: #A91079;
+    padding: 20px 0;
+
+}
+
+#Perfil{
+    width: 100%;
+    position: relative;
+    background: #2E0249;
+    padding: 50px 0;
+}
+/* #Perfil{
+    width: 100%;
+    position: relative;
+    background: #2E0249;
+    padding: 50px 0;
+} */
+
+
+.fond{padding-top:85px;top:0;left:0; right:0;bottom:0;
+    background-color:#65C6BB;}
+  
+  .carreaux_presentation_light
+  {
+    display:table-cell;
+    width:250px; height:450px;
+    background-size:cover;
+    overflow: hidden;
+    position: relative;
+  }
+  .carreaux_presentation_light .shadow_swhow_mini
+  {
+    background-color:rgba(19,30,33,0.4);
+    position: absolute;
+    z-index: 1000;
+    top:0;left:0;right:0;bottom:0;
+    
+  }
+  .carreaux_presentation_light:hover .shadow_swhow_mini
+  {
+    background-color:rgba(16,23,41,0);
+  }
+  .carreaux_presentation_light .deroul_titre
+  {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    z-index: 1000;
+    top:60%;left:-80%;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 13px; width: 80%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+  
+  }
+  .carreaux_presentation_light:hover .deroul_titre
+  {
+    background-color:#1e4944; left:0px;
+    
+  }
+  .carreaux_presentation_light .deroul_soustitre
+  {
+    position: absolute;
+    font-family: 'Roboto';
+    padding: 5px;
+    z-index: 1000;
+    top:60%;right:-85%;
+    margin-top: 25px;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 11px; width: 80%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+  }
+  .carreaux_presentation_light:hover .deroul_soustitre
+  {
+    background-color:#417c74;right:0px;
+  }
+  
+  
+ 
+#Profesion{
+    width: 100%;
+    position: relative;
+    background: #2E0249;
+    padding: 50px 0;
+}
+
+
+#empresas{
+    width: 100%;
+    position: relative;
+    background: #2E0249;
+    padding: 50px 0;
+}
+
+#estudios{
+    width: 100%;
+    position: relative;
+    background: #2E0249;
+    padding: 50px 0;
+}
+#herramientas{
+    width: 100%;
+    position: relative;
+    background: #2E0249;
+    padding: 50px 0;
+}
+#herramientas h3{
+    color: #ffffff;
+}
+#herramientas h2{
+    color: #ffffff;
+}
+#empresas h2{
+    /* margin-bottom: 300px; */
+    color: #ffffff;
+}
+#estudios h2{
+    /* margin-bottom: 300px; */
+    color: #ffffff ;
+}
+#portafolio{
+    width: 100%;
+    position: relative;
+    background: #2E0249;
+    padding: 50px 0;
+}
+
+#form{
+    width: 100%;
+    position: relative;
+    background: #2E0249;
+    padding: 50px 0;
+}
+
+
+
+.slick-prev{
+    position: absolute;
+    right: 35%;
+    bottom: -40px;
+    width: 200px;
+    background: linear-gradient(270deg,transparent,#a945c7);
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    overflow:hidden;
+    transition: 0.0s;
+   
+}
+
+.slick-prev:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #F806CC,0040px #F806CC, 0 0 80px #F806CC;
+    transition-delay: 0s;
+}
+
+.slick-next{
+    position: absolute;
+    left: 35%;
+    background: linear-gradient(270deg,transparent,#a945c7);
+    bottom: -40px;
+    width: 200px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    overflow:hidden;
+    transition: 0.4s;
+}
+
+.slick-next:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #F806CC,0040px #F806CC, 0 0 80px #F806CC;
+    transition-delay: 0s;
+}
+
+
+.card {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    width: 360px;
+    height: 400px;
+    background:none;
+}
+.card .image {
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    overflow: hidden;
+}
+.card .image img {
+    width: 100%;
+    transition: .5s;
+}
+.card:hover .image img {
+    opacity: .5;
+    transform: translateX(30%);/*100%*/
+}
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;/*100%*/
+    height: 100%;
+    background: #A91079;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.card .details .center h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.card .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+.card .details .center ul {
+    margin: 10px auto 0;
+    padding: 0;
+    display: table;
+}
+.card .details .center ul li {
+    list-style: none;
+    margin: 0 5px;
+    float: left;
+}
+.card .details .center ul li a {
+    display: block;
+    background: #262626;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transform: .5s;
+}
+.card .details .center ul li a:hover {
+    background: #ff3636;
+}
+
+
+.progress {
+    height: 50px;
+    width: 50%;
+    border: 1px solid #428bca;
+    border-radius: 5px;
+    background-color: #940a9436;
+    margin-bottom: 15px;
+    margin: auto;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(100deg,transparent,#a945c7);
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 100px; 
+    font-weight: bold;
+    color: #cce7f5;
+}
+
+
+*{box-sizing:border-box;}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+#Profesion .tomas{
+top: 21;
+}
+/* Seudo elementos,
+empezamos agregar la propiead pition:relative al contenedor padre*/
+#Profesion P{
+  position: relative;
+}
+/*al selector padre le agregamos::after*/
+#Profesion p::after{
+  /*EL SEUDO ELEMENTO SIEMPRE DEBE TENER UNA POSICIÓN ABSOLUTA UN CONTENT "",DIMENSIONES,
+  FONDOS Y POSICIONES*/
+  position: absolute;
+  content: "";
+  width: 500px;
+  height: 500px;
+  background: url("../img/image10.png")no-repeat;
+  bottom: 239px;
+  left: 201px;
+  z-index: -1;
+
+}
+#Profesion p::before{
+    /*EL SEUDO ELEMENTO SIEMPRE DEBE TENER UNA POSICIÓN ABSOLUTA UN CONTENT "",DIMENSIONES,
+    FONDOS Y POSICIONES*/
+    position: absolute;
+    content: "";
+    width: 500px;
+    height: 500px;
+    background: url("../img/image12.png")no-repeat;
+    bottom: -400px;
+    right: 0;
+    z-index: -1;
+  
+  }
+
+
+#wasa{
+  position:fixed;
+  right: 10px;
+  top: 80%;
+  z-index: 99999;
+}
